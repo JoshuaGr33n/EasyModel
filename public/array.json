@@ -1,0 +1,5 @@
+{
+    "scope": ["indirect-emissions-owned", 
+              "electricity"],
+    "name": "meeting-rooms"
+}
