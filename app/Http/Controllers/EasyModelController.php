@@ -9,7 +9,7 @@ class EasyModelController extends Controller
 
     /**
      * Controller constructor.
-     * @param Service $service
+     * @param EasyModelService $service
      */
     public function __construct(EasyModelService $service)
     {

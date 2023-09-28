@@ -16,10 +16,9 @@ class EasyModelRepository
     }
     private function scope($placeholder_data)
     {
-        return 'Apps\\Models\\' . ucfirst(Str::camel($placeholder_data->{'scope'}[0])) .
-            '\\' . ucfirst(Str::camel($placeholder_data->{'scope'}[1]));;
+        return 'App\\Models\\' . ucfirst(Str::camel($placeholder_data->{'scope'}[0])) .
+            '\\' . ucfirst(Str::camel($placeholder_data->{'scope'}[1]));
     }
-
 
     public function getTemplate()
     {
